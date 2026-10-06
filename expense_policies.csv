@@ -1,0 +1,19 @@
+Policy_ID,Expense_Type,Travel_Type,Category,Max_Limit_INR,Condition,Action_On_Violation,Severity,Approval_Required
+POL001,Flight,Domestic,AIR_DOM,25000,Per ticket - single class economy,Flag for Review + Justification Needed,MEDIUM,Manager Approval if >25000
+POL002,Flight,International,AIR_INT,175000,Per ticket - economy class (up to 8 hrs),Flag for Review + VP Approval Needed,HIGH,VP Approval Required
+POL003,Flight,International,AIR_INT,250000,Per ticket - economy class (8+ hrs),Flag for Review + VP Approval Needed,HIGH,VP Approval Required
+POL004,Hotel,Domestic,HTL_DOM,12000,Per night - standard business hotel,Flag for Review + Justification Needed,MEDIUM,Manager Approval if >12000
+POL005,Hotel,International,HTL_INT,30000,Per night - standard business hotel (Tier 1 cities),Flag for Review + VP Approval Needed,HIGH,VP Approval Required
+POL006,Hotel,International,HTL_INT,50000,Per night - premium hotel (approved cities),Flag for Review + CFO Approval Needed,CRITICAL,CFO Approval Required
+POL007,Meals,Domestic,MEAL_DOM,2000,Per meal - breakfast/lunch/dinner,Flag for Review,LOW,Auto-approved if <2000
+POL008,Meals,International,MEAL_INT,8000,Per meal - tier 1 cities,Flag for Review,LOW,Auto-approved if <8000
+POL009,Local Transport,Domestic,TRANS_DOM,3000,Per day - all local transport combined,Flag for Review,LOW,Auto-approved if <3000
+POL010,Local Transport,International,TRANS_INT,15000,Per day - all local transport combined,Flag for Review,MEDIUM,Manager Approval if >15000
+POL011,Client Entertainment,Domestic,ENT_DOM,25000,Per event - pre-approval mandatory,Flag if no pre-approval + Amount >25000,HIGH,Pre-approval Mandatory
+POL012,Client Entertainment,International,ENT_INT,50000,Per event - pre-approval mandatory,Flag if no pre-approval + Amount >50000,CRITICAL,Pre-approval Mandatory + VP Approval
+POL013,All,All,RECEIPT,0,Receipt mandatory for all expenses >500 INR,Reject claim if no receipt,MEDIUM,Mandatory Documentation
+POL014,All,All,PREAPPROVAL,0,Pre-approval mandatory for entertainment + international travel,Flag + Escalate,HIGH,Mandatory Pre-Approval
+POL015,All,All,WEEKEND,0,Weekend expense without approved travel plan,Flag for Review + Justification,MEDIUM,Manager Approval for Weekend Expenses
+POL016,All,All,DUPLICATE,0,Duplicate claims detection - same employee same date same amount,Reject + Investigate,CRITICAL,Investigation Required
+POL017,All,All,BULK_FILING,0,Claims filed >30 days after expense date,Flag + Delay Penalty,LOW,Manager Review
+POL018,Flight,Domestic,AIR_DOM,0,Flight booked <7 days before travel without justification,Flag + Justification Required,MEDIUM,Manager Justification Required

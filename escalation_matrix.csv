@@ -1,0 +1,13 @@
+Violation_Type,Severity,First_Level_Action,Second_Level_Action,Final_Escalation,Resolution_Timeline,Responsible_Person
+Policy Amount Exceeded - Low,LOW,Auto-approve with flag,Manager review within 48 hours,None,3 business days,Expense Analyst
+Policy Amount Exceeded - Medium,MEDIUM,Flag for Manager approval,Escalate to VP if no response in 48 hours,Finance Director,5 business days,Senior Expense Analyst
+Policy Amount Exceeded - High,HIGH,Reject pending VP approval,Escalate to Finance Director,Managing Director,2 business days,Team Lead
+Policy Amount Exceeded - Critical,CRITICAL,Immediate hold on claim,Notify VP + Finance Director,CFO / Compliance Officer,1 business day,Manager
+Missing Receipt,Medium,Request receipt from employee (48 hours),Reject claim if not provided,None,3 business days,Expense Analyst
+Missing Pre-Approval - Entertainment,High,Hold claim + Request justification,Reject if no valid justification,CFO for repeat offenders,2 business days,Senior Expense Analyst
+Missing Pre-Approval - International,High,Immediate hold + VP notification,Reject if VP does not approve,Finance Director,1 business day,Team Lead
+Weekend Expense - No Travel,Medium,Flag + Request justification from employee,Reject if no valid business reason,Manager,3 business days,Expense Analyst
+Duplicate Claim,CRITICAL,Immediate reject + Investigation notify,HR + Compliance investigation,Termination consideration,24 hours,Compliance Officer
+Late Filing (>30 days),Low,Flag + Warning to employee,5% deduction penalty for 2nd occurrence,10% deduction + written warning,5 business days,Expense Analyst
+Multiple Violations - Same Claim,High,Hold all claims from employee,Full audit of last 3 months claims,Manager performance review,5 business days,Team Lead
+Pattern Violation - Same Employee (3+ in quarter),Critical,Trending violation report,Escalate to HR + Department Head,Performance improvement plan,3 business days,Finance Director

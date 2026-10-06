@@ -1,0 +1,92 @@
+Employee_ID,Employee_Name,Department,Submission_Date,Expense_Date,Expense_Type,Amount_INR,Currency,Description,City,Country,Receipt_Available,Pre_Approval,Weekend_Travel,Vendor,Category_Code
+EMP001,Rajesh Sharma,Sales,2025-09-15,2025-09-10,Flight,18500,INR,Mumbai to Delhi - Client Meeting,Delhi,India,Yes,Yes,No,Air India,AIR_DOM
+EMP001,Rajesh Sharma,Sales,2025-09-15,2025-09-10,Hotel,8500,INR,Hotel Taj Delhi - 1 Night,Delhi,India,Yes,Yes,No,Taj Hotels,HTL_DOM
+EMP001,Rajesh Sharma,Sales,2025-09-15,2025-09-10,Meals,1200,INR,Client Dinner - Taj Restaurant,Delhi,India,Yes,No,No,Taj Restaurants,MEAL_DOM
+EMP001,Rajesh Sharma,Sales,2025-09-15,2025-09-11,Local Transport,2800,INR,Airport to Hotel - Uber,Delhi,India,Yes,No,No,Ola/Uber,TRANS_DOM
+EMP002,Priya Mehta,Consulting,2025-09-18,2025-09-14,Flight,145000,INR,Mumbai to Singapore - Client Workshop,Singapore,Singapore,Yes,Yes,No,Singapore Airlines,AIR_INT
+EMP002,Priya Mehta,Consulting,2025-09-18,2025-09-14,Hotel,28000,INR,Marina Bay Sands - 3 Nights,Singapore,Singapore,Yes,Yes,No,Marina Bay Sands,HTL_INT
+EMP002,Priya Mehta,Consulting,2025-09-18,2025-09-14,Client Entertainment,35000,INR,Client Dinner - CUT Steakhouse,Singapore,Singapore,Yes,Yes,No,CUT Steakhouse,ENT_INT
+EMP002,Priya Mehta,Consulting,2025-09-18,2025-09-15,Meals,8500,INR,Team Lunch,Singapore,Singapore,Yes,No,No,Various,MEAL_INT
+EMP002,Priya Mehta,Consulting,2025-09-18,2025-09-16,Local Transport,12000,INR,Airport Transfers + Client Meetings,Singapore,Singapore,Yes,No,No,Grab,TRANS_INT
+EMP003,Amit Verma,Technology,2025-09-20,2025-09-13,Flight,22000,INR,Bangalore to Mumbai - Conference,Mumbai,India,Yes,Yes,No,IndiGo,AIR_DOM
+EMP003,Amit Verma,Technology,2025-09-20,2025-09-13,Hotel,15000,INR,ITC Grand Maratha - 2 Nights,Mumbai,India,Yes,Yes,No,ITC Hotels,HTL_DOM
+EMP003,Amit Verma,Technology,2025-09-20,2025-09-13,Meals,1800,INR,Conference Lunch,Mumbai,India,Yes,No,No,ITC Restaurants,MEAL_DOM
+EMP003,Amit Verma,Technology,2025-09-20,2025-09-14,Meals,1500,INR,Team Dinner,Mumbai,India,Yes,No,No,Trishna,MEAL_DOM
+EMP004,Sneha Patel,Finance,2025-09-22,2025-09-18,Flight,32000,INR,Delhi to London - Finance Summit,London,UK,Yes,Yes,No,British Airways,AIR_INT
+EMP004,Sneha Patel,Finance,2025-09-22,2025-09-18,Hotel,42000,INR,Hilton London - 4 Nights,London,UK,Yes,Yes,No,Hilton Hotels,HTL_INT
+EMP004,Sneha Patel,Finance,2025-09-22,2025-09-19,Meals,6500,INR,Summit Lunch,London,UK,Yes,No,No,Summit Catering,MEAL_INT
+EMP004,Sneha Patel,Finance,2025-09-22,2025-09-20,Local Transport,18000,INR,Heathrow to Central London + Meetings,London,UK,Yes,No,No,Black Cab/Tube,TRANS_INT
+EMP004,Sneha Patel,Finance,2025-09-22,2025-09-21,Meals,4200,INR,Weekend Meal - Personal,London,UK,No,No,Yes,Various,MEAL_INT
+EMP005,Vikram Singh,Sales,2025-09-25,2025-09-22,Flight,15500,INR,Chennai to Bangalore - Client Visit,Bangalore,India,Yes,Yes,No,Vistara,AIR_DOM
+EMP005,Vikram Singh,Sales,2025-09-25,2025-09-22,Hotel,9500,INR,The Leela Palace - 1 Night,Bangalore,India,Yes,Yes,No,The Leela,HTL_DOM
+EMP005,Vikram Singh,Sales,2025-09-25,2025-09-22,Client Entertainment,12000,INR,Client Dinner - Bengaluru Club,Bangalore,India,Yes,Yes,No,Bengaluru Club,ENT_DOM
+EMP005,Vikram Singh,Sales,2025-09-25,2025-09-22,Meals,1100,INR,Working Lunch,Bangalore,India,Yes,No,No,Hotel Restaurant,MEAL_DOM
+EMP006,Ananya Gupta,HR,2025-09-28,2025-09-25,Flight,19800,INR,Mumbai to Delhi - HR Conference,Delhi,India,Yes,Yes,No,SpiceJet,AIR_DOM
+EMP006,Ananya Gupta,HR,2025-09-28,2025-09-25,Hotel,11000,INR,The Park Delhi - 2 Nights,Delhi,India,Yes,Yes,No,The Park,HTL_DOM
+EMP006,Ananya Gupta,HR,2025-09-28,2025-09-25,Meals,950,INR,Conference Lunch,Delhi,India,Yes,No,No,Conference Venue,MEAL_DOM
+EMP006,Ananya Gupta,HR,2025-09-28,2025-09-26,Meals,1300,INR,Team Dinner,Delhi,India,Yes,No,No,Bukhara,MEAL_DOM
+EMP006,Ananya Gupta,HR,2025-09-28,2025-09-27,Local Transport,1800,INR,Local Sightseeing - Weekend,Delhi,India,No,No,Yes,Ola,TRANS_DOM
+EMP007,Karan Malhotra,Marketing,2025-10-01,2025-09-28,Flight,28000,INR,Delhi to Dubai - Marketing Event,Dubai,UAE,Yes,No,No,Emirates,AIR_INT
+EMP007,Karan Malhotra,Marketing,2025-10-01,2025-09-28,Hotel,35000,INR,Atlantis The Palm - 3 Nights,Dubai,UAE,Yes,No,No,Atlantis,HTL_INT
+EMP007,Karan Malhotra,Marketing,2025-10-01,2025-09-28,Client Entertainment,55000,INR,VIP Event - Atlantis,Dubai,UAE,Yes,No,No,Atlantis,ENT_INT
+EMP007,Karan Malhotra,Marketing,2025-10-01,2025-09-29,Meals,12000,INR,Team Lunch,Dubai,UAE,Yes,No,No,Various,MEAL_INT
+EMP007,Karan Malhotra,Marketing,2025-10-01,2025-09-30,Local Transport,8500,INR,Airport + Event Transfers,Dubai,UAE,No,No,No,Careem,TRANS_INT
+EMP008,Deepa Nair,Consulting,2025-10-03,2025-10-01,Flight,24500,INR,Hyderabad to Pune - Client Meeting,Pune,India,Yes,Yes,No,Air India,AIR_DOM
+EMP008,Deepa Nair,Consulting,2025-10-03,2025-10-01,Hotel,7800,INR,JW Marriott - 1 Night,Pune,India,Yes,Yes,No,JW Marriott,HTL_DOM
+EMP008,Deepa Nair,Consulting,2025-10-03,2025-10-01,Meals,1450,INR,Client Lunch,Pune,India,Yes,No,No,JW Marriott,MEAL_DOM
+EMP008,Deepa Nair,Consulting,2025-10-03,2025-10-01,Local Transport,2200,INR,Airport to Hotel,Pune,India,Yes,No,No,Ola,TRANS_DOM
+EMP009,Rohan Joshi,Technology,2025-10-05,2025-10-02,Flight,21000,INR,Mumbai to Chennai - Tech Summit,Chennai,India,Yes,Yes,No,IndiGo,AIR_DOM
+EMP009,Rohan Joshi,Technology,2025-10-05,2025-10-02,Hotel,13500,INR,The Leela Palace - 2 Nights,Chennai,India,Yes,Yes,No,The Leela,HTL_DOM
+EMP009,Rohan Joshi,Technology,2025-10-05,2025-10-03,Meals,2800,INR,Summit Dinner,Chennai,India,Yes,No,No,Dakshin,MEAL_DOM
+EMP009,Rohan Joshi,Technology,2025-10-05,2025-10-04,Local Transport,4500,INR,Airport + Summit Venue,Chennai,India,Yes,No,No,Ola,TRANS_DOM
+EMP010,Mehak Kapoor,Finance,2025-10-08,2025-10-05,Flight,95000,INR,Mumbai to New York - Quarterly Review,New York,USA,Yes,Yes,No,Air India,AIR_INT
+EMP010,Mehak Kapoor,Finance,2025-10-08,2025-10-05,Hotel,185000,INR,Marriott Marquis - 5 Nights,New York,USA,Yes,Yes,No,Marriott,HTL_INT
+EMP010,Mehak Kapoor,Finance,2025-10-08,2025-10-06,Meals,15000,INR,Team Working Lunch,New York,USA,Yes,No,No,Various,MEAL_INT
+EMP010,Mehak Kapoor,Finance,2025-10-08,2025-10-07,Client Entertainment,85000,INR,Client Dinner - Nobu,New York,USA,Yes,Yes,No,Nobu,ENT_INT
+EMP010,Mehak Kapoor,Finance,2025-10-08,2025-10-08,Local Transport,25000,INR,JFK to Manhattan + Meetings,New York,USA,Yes,No,No,Uber,TRANS_INT
+EMP010,Mehak Kapoor,Finance,2025-10-08,2025-10-09,Meals,3500,INR,Personal Meal,New York,USA,No,No,Yes,Various,MEAL_INT
+EMP011,Arjun Reddy,Sales,2025-10-10,2025-10-08,Flight,16800,INR,Bangalore to Kolkata - Client Meeting,Kolkata,India,Yes,Yes,No,Vistara,AIR_DOM
+EMP011,Arjun Reddy,Sales,2025-10-10,2025-10-08,Hotel,8200,INR,The Oberoi Grand - 1 Night,Kolkata,India,Yes,Yes,No,The Oberoi,HTL_DOM
+EMP011,Arjun Reddy,Sales,2025-10-10,2025-10-08,Client Entertainment,18500,INR,Client Dinner - 6 Ballygunge Place,Kolkata,India,Yes,No,No,6 Ballygunge Place,ENT_DOM
+EMP011,Arjun Reddy,Sales,2025-10-10,2025-10-08,Meals,900,INR,Working Lunch,Kolkata,India,Yes,No,No,Hotel Restaurant,MEAL_DOM
+EMP012,Nisha Agarwal,Consulting,2025-10-12,2025-10-10,Flight,27500,INR,Delhi to Tokyo - Client Project,Tokyo,Japan,Yes,Yes,No,ANA,AIR_INT
+EMP012,Nisha Agarwal,Consulting,2025-10-12,2025-10-10,Hotel,32000,INR,Park Hyatt Tokyo - 4 Nights,Tokyo,Japan,Yes,Yes,No,Park Hyatt,HTL_INT
+EMP012,Nisha Agarwal,Consulting,2025-10-12,2025-10-11,Meals,7500,INR,Client Lunch,Tokyo,Japan,Yes,No,No,Park Hyatt,MEAL_INT
+EMP012,Nisha Agarwal,Consulting,2025-10-12,2025-10-12,Local Transport,15000,INR,Narita to Tokyo + Client Sites,Tokyo,Japan,Yes,No,No,Tokyo Metro/Taxi,TRANS_INT
+EMP012,Nisha Agarwal,Consulting,2025-10-12,2025-10-13,Client Entertainment,42000,INR,Client Dinner - Sukiyabashi Jiro,Tokyo,Japan,Yes,Yes,No,Sukiyabashi Jiro,ENT_INT
+EMP013,Suresh Kumar,Technology,2025-10-15,2025-10-13,Flight,12500,INR,Pune to Hyderabad - DevOps Meet,Hyderabad,India,Yes,Yes,No,IndiGo,AIR_DOM
+EMP013,Suresh Kumar,Technology,2025-10-15,2025-10-13,Hotel,6500,INR,Novotel - 1 Night,Hyderabad,India,Yes,Yes,No,Novotel,HTL_DOM
+EMP013,Suresh Kumar,Technology,2025-10-15,2025-10-13,Meals,850,INR,Working Lunch,Hyderabad,India,Yes,No,No,Hotel Restaurant,MEAL_DOM
+EMP013,Suresh Kumar,Technology,2025-10-15,2025-10-13,Local Transport,1500,INR,Airport to Hotel,Hyderabad,India,Yes,No,No,Ola,TRANS_DOM
+EMP014,Divya Menon,Marketing,2025-10-18,2025-10-15,Flight,38000,INR,Mumbai to London - Campaign Launch,London,UK,Yes,No,No,Virgin Atlantic,AIR_INT
+EMP014,Divya Menon,Marketing,2025-10-18,2025-10-15,Hotel,48000,INR,The Savoy - 4 Nights,London,UK,Yes,No,No,The Savoy,HTL_INT
+EMP014,Divya Menon,Marketing,2025-10-18,2025-10-16,Client Entertainment,68000,INR,Agency Partner Dinner - The Ritz,London,UK,Yes,No,No,The Ritz,ENT_INT
+EMP014,Divya Menon,Marketing,2025-10-18,2025-10-17,Meals,9500,INR,Team Lunch,London,UK,Yes,No,No,Various,MEAL_INT
+EMP014,Divya Menon,Marketing,2025-10-18,2025-10-18,Local Transport,22000,INR,Heathrow + Central London,London,UK,No,No,No,Black Cab,TRANS_INT
+EMP015,Akash Desai,Finance,2025-10-20,2025-10-18,Flight,14200,INR,Chennai to Mumbai - Audit Meeting,Mumbai,India,Yes,Yes,No,Air India,AIR_DOM
+EMP015,Akash Desai,Finance,2025-10-20,2025-10-18,Hotel,9800,INR,Trident BKC - 1 Night,Mumbai,India,Yes,Yes,No,Trident,HTL_DOM
+EMP015,Akash Desai,Finance,2025-10-20,2025-10-18,Meals,1100,INR,Working Lunch,Mumbai,India,Yes,No,No,Trident,MEAL_DOM
+EMP015,Akash Desai,Finance,2025-10-20,2025-10-18,Local Transport,2000,INR,Airport to Hotel,Mumbai,India,Yes,No,No,Ola,TRANS_DOM
+EMP016,Ritu Saxena,HR,2025-10-22,2025-10-19,Flight,17500,INR,Delhi to Bangalore - HR Summit,Bangalore,India,Yes,Yes,No,SpiceJet,AIR_DOM
+EMP016,Ritu Saxena,HR,2025-10-22,2025-10-19,Hotel,10500,INR,The Leela - 2 Nights,Bangalore,India,Yes,Yes,No,The Leela,HTL_DOM
+EMP016,Ritu Saxena,HR,2025-10-22,2025-10-19,Meals,1350,INR,Summit Lunch,Bangalore,India,Yes,No,No,Hotel Restaurant,MEAL_DOM
+EMP016,Ritu Saxena,HR,2025-10-22,2025-10-20,Meals,1600,INR,Team Dinner,Bangalore,India,Yes,No,No,Karavalli,MEAL_DOM
+EMP017,Manish Tiwari,Sales,2025-10-25,2025-10-22,Flight,29500,INR,Mumbai to Hong Kong - Client Pitch,Hong Kong,HK,Yes,Yes,No,Cathay Pacific,AIR_INT
+EMP017,Manish Tiwari,Sales,2025-10-25,2025-10-22,Hotel,38000,INR,The Peninsula - 3 Nights,Hong Kong,HK,Yes,Yes,No,The Peninsula,HTL_INT
+EMP017,Manish Tiwari,Sales,2025-10-25,2025-10-23,Client Entertainment,95000,INR,Client Dinner - Felix,Hong Kong,HK,Yes,Yes,No,Felix,ENT_INT
+EMP017,Manish Tiwari,Sales,2025-10-25,2025-10-24,Meals,8500,INR,Working Lunch,Hong Kong,HK,Yes,No,No,Hotel Restaurant,MEAL_INT
+EMP017,Manish Tiwari,Sales,2025-10-25,2025-10-24,Local Transport,12000,INR,Airport + Client Sites,Hong Kong,HK,Yes,No,No,Taxi/MTR,TRANS_INT
+EMP018,Pooja Krishnan,Consulting,2025-10-28,2025-10-25,Flight,11800,INR,Bangalore to Ahmedabad - Workshop,Ahmedabad,India,Yes,Yes,No,IndiGo,AIR_DOM
+EMP018,Pooja Krishnan,Consulting,2025-10-28,2025-10-25,Hotel,5500,INR,Radisson Blu - 1 Night,Ahmedabad,India,Yes,Yes,No,Radisson Blu,HTL_DOM
+EMP018,Pooja Krishnan,Consulting,2025-10-28,2025-10-25,Meals,750,INR,Workshop Lunch,Ahmedabad,India,Yes,No,No,Hotel Restaurant,MEAL_DOM
+EMP018,Pooja Krishnan,Consulting,2025-10-28,2025-10-25,Local Transport,1200,INR,Airport to Hotel,Ahmedabad,India,Yes,No,No,Ola,TRANS_DOM
+EMP019,Harsh Vardhan,Technology,2025-11-01,2025-10-28,Flight,26000,INR,Hyderabad to San Francisco - Tech Conference,San Francisco,USA,Yes,Yes,No,United Airlines,AIR_INT
+EMP019,Harsh Vardhan,Technology,2025-11-01,2025-10-28,Hotel,165000,INR,Hilton Union Square - 5 Nights,San Francisco,USA,Yes,Yes,No,Hilton,HTL_INT
+EMP019,Harsh Vardhan,Technology,2025-11-01,2025-10-29,Meals,11000,INR,Conference Lunch,San Francisco,USA,Yes,No,No,Conference Catering,MEAL_INT
+EMP019,Harsh Vardhan,Technology,2025-11-01,2025-10-30,Local Transport,18000,INR,SFO to Downtown + Conference,San Francisco,USA,Yes,No,No,Uber,TRANS_INT
+EMP019,Harsh Vardhan,Technology,2025-11-01,2025-10-31,Client Entertainment,45000,INR,Partner Dinner - Gary Danko,San Francisco,USA,Yes,Yes,No,Gary Danko,ENT_INT
+EMP020,Kavita Rao,Marketing,2025-11-03,2025-10-31,Flight,13500,INR,Delhi to Jaipur - Brand Launch,Jaipur,India,Yes,Yes,No,Air India,AIR_DOM
+EMP020,Kavita Rao,Marketing,2025-11-03,2025-10-31,Hotel,12500,INR,Rambagh Palace - 2 Nights,Jaipur,India,Yes,Yes,No,Rambagh Palace,HTL_DOM
+EMP020,Kavita Rao,Marketing,2025-11-03,2025-10-31,Client Entertainment,22000,INR,Brand Launch Event - Rambagh,Jaipur,India,Yes,Yes,No,Rambagh Palace,ENT_DOM
+EMP020,Kavita Rao,Marketing,2025-11-03,2025-11-01,Meals,2100,INR,Team Lunch,Jaipur,India,Yes,No,No,Suvarna Mahal,MEAL_DOM
+EMP020,Kavita Rao,Marketing,2025-11-03,2025-11-01,Local Transport,3500,INR,Airport + Venue Transfers,Jaipur,India,Yes,No,No,Ola,TRANS_DOM

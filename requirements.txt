@@ -1,0 +1,9 @@
+# Corporate Expense Audit System - Requirements
+# Python 3.8+
+# No external dependencies required (uses standard library only)
+#
+# Optional dependencies for extended functionality:
+# pandas>=1.5.0
+# matplotlib>=3.6.0
+# seaborn>=0.12.0
+# openpyxl>=3.0.0  # For Excel export

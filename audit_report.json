@@ -1,0 +1,620 @@
+{
+  "summary": {
+    "total_claims": 91,
+    "total_violations": 57,
+    "unique_violators": 16,
+    "total_amount_inr": 2054350.0,
+    "flagged_amount_inr": 1580200.0,
+    "compliance_score_pct": 82.4,
+    "audit_date": "2026-10-06 06:36"
+  },
+  "violations": [
+    {
+      "claim_id": "CLM-2025-002-MEA",
+      "employee": "EMP002 - Priya Mehta",
+      "department": "Consulting",
+      "expense_type": "Meals",
+      "amount": 8500.0,
+      "violation": "Amount \u20b98,500 exceeds International Meals limit of \u20b98,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-003-HOT",
+      "employee": "EMP003 - Amit Verma",
+      "department": "Technology",
+      "expense_type": "Hotel",
+      "amount": 15000.0,
+      "violation": "Amount \u20b915,000 exceeds Domestic Hotel limit of \u20b912,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-003-MEA",
+      "employee": "EMP003 - Amit Verma",
+      "department": "Technology",
+      "expense_type": "Meals",
+      "amount": 1800.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-003-MEA",
+      "employee": "EMP003 - Amit Verma",
+      "department": "Technology",
+      "expense_type": "Meals",
+      "amount": 1500.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-004-HOT",
+      "employee": "EMP004 - Sneha Patel",
+      "department": "Finance",
+      "expense_type": "Hotel",
+      "amount": 42000.0,
+      "violation": "Amount \u20b942,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-004-LOC",
+      "employee": "EMP004 - Sneha Patel",
+      "department": "Finance",
+      "expense_type": "Local Transport",
+      "amount": 18000.0,
+      "violation": "Amount \u20b918,000 exceeds International Local Transport limit of \u20b915,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for TRANS_INT"
+    },
+    {
+      "claim_id": "CLM-2025-004-LOC",
+      "employee": "EMP004 - Sneha Patel",
+      "department": "Finance",
+      "expense_type": "Local Transport",
+      "amount": 18000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-004-MEA",
+      "employee": "EMP004 - Sneha Patel",
+      "department": "Finance",
+      "expense_type": "Meals",
+      "amount": 4200.0,
+      "violation": "Missing receipt for amount > \u20b9500",
+      "severity": "MEDIUM",
+      "policy_ref": "POL013"
+    },
+    {
+      "claim_id": "CLM-2025-006-LOC",
+      "employee": "EMP006 - Ananya Gupta",
+      "department": "HR",
+      "expense_type": "Local Transport",
+      "amount": 1800.0,
+      "violation": "Missing receipt for amount > \u20b9500",
+      "severity": "MEDIUM",
+      "policy_ref": "POL013"
+    },
+    {
+      "claim_id": "CLM-2025-007-FLI",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Flight",
+      "amount": 28000.0,
+      "violation": "No pre-approval for international Flight",
+      "severity": "HIGH",
+      "policy_ref": "POL014"
+    },
+    {
+      "claim_id": "CLM-2025-007-FLI",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Flight",
+      "amount": 28000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-007-HOT",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Hotel",
+      "amount": 35000.0,
+      "violation": "Amount \u20b935,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-007-HOT",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Hotel",
+      "amount": 35000.0,
+      "violation": "No pre-approval for international Hotel",
+      "severity": "HIGH",
+      "policy_ref": "POL014"
+    },
+    {
+      "claim_id": "CLM-2025-007-HOT",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Hotel",
+      "amount": 35000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-007-CLI",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Client Entertainment",
+      "amount": 55000.0,
+      "violation": "Amount \u20b955,000 exceeds International Client Entertainment limit of \u20b950,000",
+      "severity": "CRITICAL",
+      "policy_ref": "POL for ENT_INT"
+    },
+    {
+      "claim_id": "CLM-2025-007-CLI",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Client Entertainment",
+      "amount": 55000.0,
+      "violation": "No pre-approval for Client Entertainment expense",
+      "severity": "HIGH",
+      "policy_ref": "POL011/POL012"
+    },
+    {
+      "claim_id": "CLM-2025-007-CLI",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Client Entertainment",
+      "amount": 55000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-007-MEA",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Meals",
+      "amount": 12000.0,
+      "violation": "Amount \u20b912,000 exceeds International Meals limit of \u20b98,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-007-LOC",
+      "employee": "EMP007 - Karan Malhotra",
+      "department": "Marketing",
+      "expense_type": "Local Transport",
+      "amount": 8500.0,
+      "violation": "Missing receipt for amount > \u20b9500",
+      "severity": "MEDIUM",
+      "policy_ref": "POL013"
+    },
+    {
+      "claim_id": "CLM-2025-009-HOT",
+      "employee": "EMP009 - Rohan Joshi",
+      "department": "Technology",
+      "expense_type": "Hotel",
+      "amount": 13500.0,
+      "violation": "Amount \u20b913,500 exceeds Domestic Hotel limit of \u20b912,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-009-MEA",
+      "employee": "EMP009 - Rohan Joshi",
+      "department": "Technology",
+      "expense_type": "Meals",
+      "amount": 2800.0,
+      "violation": "Amount \u20b92,800 exceeds Domestic Meals limit of \u20b92,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-009-LOC",
+      "employee": "EMP009 - Rohan Joshi",
+      "department": "Technology",
+      "expense_type": "Local Transport",
+      "amount": 4500.0,
+      "violation": "Amount \u20b94,500 exceeds Domestic Local Transport limit of \u20b93,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for TRANS_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-009-LOC",
+      "employee": "EMP009 - Rohan Joshi",
+      "department": "Technology",
+      "expense_type": "Local Transport",
+      "amount": 4500.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-010-HOT",
+      "employee": "EMP010 - Mehak Kapoor",
+      "department": "Finance",
+      "expense_type": "Hotel",
+      "amount": 185000.0,
+      "violation": "Amount \u20b9185,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "CRITICAL",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-010-MEA",
+      "employee": "EMP010 - Mehak Kapoor",
+      "department": "Finance",
+      "expense_type": "Meals",
+      "amount": 15000.0,
+      "violation": "Amount \u20b915,000 exceeds International Meals limit of \u20b98,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-010-CLI",
+      "employee": "EMP010 - Mehak Kapoor",
+      "department": "Finance",
+      "expense_type": "Client Entertainment",
+      "amount": 85000.0,
+      "violation": "Amount \u20b985,000 exceeds International Client Entertainment limit of \u20b950,000",
+      "severity": "CRITICAL",
+      "policy_ref": "POL for ENT_INT"
+    },
+    {
+      "claim_id": "CLM-2025-010-LOC",
+      "employee": "EMP010 - Mehak Kapoor",
+      "department": "Finance",
+      "expense_type": "Local Transport",
+      "amount": 25000.0,
+      "violation": "Amount \u20b925,000 exceeds International Local Transport limit of \u20b915,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for TRANS_INT"
+    },
+    {
+      "claim_id": "CLM-2025-010-MEA",
+      "employee": "EMP010 - Mehak Kapoor",
+      "department": "Finance",
+      "expense_type": "Meals",
+      "amount": 3500.0,
+      "violation": "Missing receipt for amount > \u20b9500",
+      "severity": "MEDIUM",
+      "policy_ref": "POL013"
+    },
+    {
+      "claim_id": "CLM-2025-011-CLI",
+      "employee": "EMP011 - Arjun Reddy",
+      "department": "Sales",
+      "expense_type": "Client Entertainment",
+      "amount": 18500.0,
+      "violation": "No pre-approval for Client Entertainment expense",
+      "severity": "HIGH",
+      "policy_ref": "POL011/POL012"
+    },
+    {
+      "claim_id": "CLM-2025-012-HOT",
+      "employee": "EMP012 - Nisha Agarwal",
+      "department": "Consulting",
+      "expense_type": "Hotel",
+      "amount": 32000.0,
+      "violation": "Amount \u20b932,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-012-MEA",
+      "employee": "EMP012 - Nisha Agarwal",
+      "department": "Consulting",
+      "expense_type": "Meals",
+      "amount": 7500.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-012-LOC",
+      "employee": "EMP012 - Nisha Agarwal",
+      "department": "Consulting",
+      "expense_type": "Local Transport",
+      "amount": 15000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-014-FLI",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Flight",
+      "amount": 38000.0,
+      "violation": "No pre-approval for international Flight",
+      "severity": "HIGH",
+      "policy_ref": "POL014"
+    },
+    {
+      "claim_id": "CLM-2025-014-HOT",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Hotel",
+      "amount": 48000.0,
+      "violation": "Amount \u20b948,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-014-HOT",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Hotel",
+      "amount": 48000.0,
+      "violation": "No pre-approval for international Hotel",
+      "severity": "HIGH",
+      "policy_ref": "POL014"
+    },
+    {
+      "claim_id": "CLM-2025-014-CLI",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Client Entertainment",
+      "amount": 68000.0,
+      "violation": "Amount \u20b968,000 exceeds International Client Entertainment limit of \u20b950,000",
+      "severity": "CRITICAL",
+      "policy_ref": "POL for ENT_INT"
+    },
+    {
+      "claim_id": "CLM-2025-014-CLI",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Client Entertainment",
+      "amount": 68000.0,
+      "violation": "No pre-approval for Client Entertainment expense",
+      "severity": "HIGH",
+      "policy_ref": "POL011/POL012"
+    },
+    {
+      "claim_id": "CLM-2025-014-MEA",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Meals",
+      "amount": 9500.0,
+      "violation": "Amount \u20b99,500 exceeds International Meals limit of \u20b98,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-014-LOC",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Local Transport",
+      "amount": 22000.0,
+      "violation": "Amount \u20b922,000 exceeds International Local Transport limit of \u20b915,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for TRANS_INT"
+    },
+    {
+      "claim_id": "CLM-2025-014-LOC",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Local Transport",
+      "amount": 22000.0,
+      "violation": "Missing receipt for amount > \u20b9500",
+      "severity": "MEDIUM",
+      "policy_ref": "POL013"
+    },
+    {
+      "claim_id": "CLM-2025-014-LOC",
+      "employee": "EMP014 - Divya Menon",
+      "department": "Marketing",
+      "expense_type": "Local Transport",
+      "amount": 22000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-015-MEA",
+      "employee": "EMP015 - Akash Desai",
+      "department": "Finance",
+      "expense_type": "Meals",
+      "amount": 1100.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-015-LOC",
+      "employee": "EMP015 - Akash Desai",
+      "department": "Finance",
+      "expense_type": "Local Transport",
+      "amount": 2000.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-016-MEA",
+      "employee": "EMP016 - Ritu Saxena",
+      "department": "HR",
+      "expense_type": "Meals",
+      "amount": 1350.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-017-HOT",
+      "employee": "EMP017 - Manish Tiwari",
+      "department": "Sales",
+      "expense_type": "Hotel",
+      "amount": 38000.0,
+      "violation": "Amount \u20b938,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-017-CLI",
+      "employee": "EMP017 - Manish Tiwari",
+      "department": "Sales",
+      "expense_type": "Client Entertainment",
+      "amount": 95000.0,
+      "violation": "Amount \u20b995,000 exceeds International Client Entertainment limit of \u20b950,000",
+      "severity": "CRITICAL",
+      "policy_ref": "POL for ENT_INT"
+    },
+    {
+      "claim_id": "CLM-2025-017-MEA",
+      "employee": "EMP017 - Manish Tiwari",
+      "department": "Sales",
+      "expense_type": "Meals",
+      "amount": 8500.0,
+      "violation": "Amount \u20b98,500 exceeds International Meals limit of \u20b98,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-018-MEA",
+      "employee": "EMP018 - Pooja Krishnan",
+      "department": "Consulting",
+      "expense_type": "Meals",
+      "amount": 750.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-018-LOC",
+      "employee": "EMP018 - Pooja Krishnan",
+      "department": "Consulting",
+      "expense_type": "Local Transport",
+      "amount": 1200.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-019-HOT",
+      "employee": "EMP019 - Harsh Vardhan",
+      "department": "Technology",
+      "expense_type": "Hotel",
+      "amount": 165000.0,
+      "violation": "Amount \u20b9165,000 exceeds International Hotel limit of \u20b930,000",
+      "severity": "CRITICAL",
+      "policy_ref": "POL for HTL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-019-MEA",
+      "employee": "EMP019 - Harsh Vardhan",
+      "department": "Technology",
+      "expense_type": "Meals",
+      "amount": 11000.0,
+      "violation": "Amount \u20b911,000 exceeds International Meals limit of \u20b98,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_INT"
+    },
+    {
+      "claim_id": "CLM-2025-019-LOC",
+      "employee": "EMP019 - Harsh Vardhan",
+      "department": "Technology",
+      "expense_type": "Local Transport",
+      "amount": 18000.0,
+      "violation": "Amount \u20b918,000 exceeds International Local Transport limit of \u20b915,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for TRANS_INT"
+    },
+    {
+      "claim_id": "CLM-2025-020-HOT",
+      "employee": "EMP020 - Kavita Rao",
+      "department": "Marketing",
+      "expense_type": "Hotel",
+      "amount": 12500.0,
+      "violation": "Amount \u20b912,500 exceeds Domestic Hotel limit of \u20b912,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for HTL_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-020-MEA",
+      "employee": "EMP020 - Kavita Rao",
+      "department": "Marketing",
+      "expense_type": "Meals",
+      "amount": 2100.0,
+      "violation": "Amount \u20b92,100 exceeds Domestic Meals limit of \u20b92,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for MEAL_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-020-MEA",
+      "employee": "EMP020 - Kavita Rao",
+      "department": "Marketing",
+      "expense_type": "Meals",
+      "amount": 2100.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    },
+    {
+      "claim_id": "CLM-2025-020-LOC",
+      "employee": "EMP020 - Kavita Rao",
+      "department": "Marketing",
+      "expense_type": "Local Transport",
+      "amount": 3500.0,
+      "violation": "Amount \u20b93,500 exceeds Domestic Local Transport limit of \u20b93,000",
+      "severity": "HIGH",
+      "policy_ref": "POL for TRANS_DOM"
+    },
+    {
+      "claim_id": "CLM-2025-020-LOC",
+      "employee": "EMP020 - Kavita Rao",
+      "department": "Marketing",
+      "expense_type": "Local Transport",
+      "amount": 3500.0,
+      "violation": "Weekend expense without approved travel plan",
+      "severity": "MEDIUM",
+      "policy_ref": "POL015"
+    }
+  ],
+  "department_stats": {
+    "Sales": {
+      "claims": 17,
+      "violations": 4,
+      "amount": 296500.0
+    },
+    "Consulting": {
+      "claims": 18,
+      "violations": 6,
+      "amount": 407700.0
+    },
+    "Technology": {
+      "claims": 17,
+      "violations": 10,
+      "amount": 368450.0
+    },
+    "Finance": {
+      "claims": 15,
+      "violations": 11,
+      "amount": 538300.0
+    },
+    "HR": {
+      "claims": 9,
+      "violations": 2,
+      "amount": 65800.0
+    },
+    "Marketing": {
+      "claims": 15,
+      "violations": 24,
+      "amount": 377600.0
+    }
+  },
+  "severity_breakdown": {
+    "HIGH": 29,
+    "MEDIUM": 22,
+    "CRITICAL": 6
+  }
+}
